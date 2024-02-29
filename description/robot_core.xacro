@@ -36,8 +36,8 @@
     </joint>
 
     <link name="base_footprint"></link>
+    
     <!-- Chassis Link-->
-
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
